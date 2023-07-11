@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.calc{
+    margin: 100px auto;
+    width: 400px;
+    color: white;
+}
+.zero{
+    text-align: right;
+    font-size: 60px;
+}
+.key{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 90px;
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.keypad-table tr:first-child .key{
+    background-color: gray;
+}
+.keypad-table td:last-child .key{
+    background-color: orange;
+}
+.keypad-table tr:first-child .key:active{
+    background-color: black;
+}
+.keypad-table td:last-child .key:active{
+    background-color: black;
+}
+.key:active{
+    background-color: rgb(46, 39, 39);
+}
